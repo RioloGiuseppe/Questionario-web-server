@@ -1,0 +1,36 @@
+<html>
+
+<head>
+   <title>Questionario UNICT</title>
+   <link href="css/bootstrap.min.css" rel="stylesheet">
+   <link href="css/quest.min.css" rel="stylesheet">
+</head>
+
+<body>
+   <div class="container">
+      <div class="row">
+         <h1 class="main-title">Questionario conoscitivo per l’orientamento <br/> verso il corso di studi magistrale</h1>
+         <div class="col-md-6 col-md-offset-3">
+            <form method="POST" action="/dwn.csv">
+               <div id="part-download" class="part">
+                  <h4>Scarica risultati</h4>
+                  <div class="row">
+                     <div class="col-md-12">
+                        <label for="psw">Inserire pin per scaricare il database</label>
+                        <input type="password" class="form-control input-lg text-center" id="psw" name="code">
+                     </div>
+                  </div>
+                  <div class="row">
+                     <div class="col-md-12">
+                        <input type="submit" class="btn btn-success btn-lg" style="width:100%" value="Download">
+                     </div>
+                  </div>
+            </form>
+            </div>
+         </div>
+      </div>
+      <script src="js/jquery-1.11.3.min.js" type="text/javascript"></script>
+      <script src="js/quest.min.js" type="text/javascript"></script>
+</body>
+
+</html>

@@ -1,0 +1,126 @@
+<html>
+
+<head>
+   <title>Questionario UNICT</title>
+   <link href="css/bootstrap.min.css" rel="stylesheet">
+   <link href="css/quest.min.css" rel="stylesheet">
+</head>
+
+<body>
+   <div class="container">
+      <div class="row">
+         <h1 class="main-title">Questionario conoscitivo per l’orientamento <br/> verso il corso di studi magistrale</h1>
+         <div class="col-md-10 col-md-offset-1">
+            <form class="form-inline" method="POST" id="q-form">
+               <div id="part1" class="part">
+                  <h4>Informazioni generali</h4>
+                  <div class="row">
+                     <div class="col-md-5">
+                        <label class="checkbox-inline label-m0">Sesso</label>
+                        <label class="checkbox-inline">
+                           <input type="radio" name="sex" value="m"> M
+                        </label>
+                        <label class="checkbox-inline">
+                           <input type="radio" name="sex" value="f"> F
+                        </label>
+                     </div>
+                     <div class="col-md-7">
+                        <div class="row">
+                           <div class="col-md-1">
+                              <label for="inputEmail3" class="control-label label-m0">Età: </label>
+                           </div>
+                           <div class="col-sm-11">
+                              <input type="text" class="form-control input-xs" id="inputEmail3" placeholder="età" name="age">
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="row">
+                     <div class="col-md-5">
+                        <label for="inputEmail3" class="control-label label-m0">Città di residenza della famiglia:</label>
+                     </div>
+                     <div class="col-md-6">
+                        <input type="text" class="form-control input-xs" id="inputEmail3" placeholder="Città" name="city">
+                     </div>
+                     <div class="col-md-1">
+                        <input type="text" class="form-control input-xs" id="inputEmail3" placeholder="Prov" name="prov">
+                     </div>
+                  </div>
+                  <div class="row">
+                     <div class="col-md-5">
+                        <label for="inputEmail3" class="control-label label-m0">Diploma di scuola superiore:</label>
+                     </div>
+                     <div class="col-md-7">
+                        <input type="text" class="form-control input-xs" id="inputEmail3" placeholder="Diploma" name="diploma">
+                     </div>
+                  </div>
+               </div>
+               <div id="part2" class="part" style="display:none;">
+                  <h4>Corso di laurea di primo livello che si sta frequentando</h4>
+               </div>
+               <div id="part3" class="part" style="display:none;">
+                  <h4>Corso di laurea di primo livello che si sta frequentando</h4>
+               </div>
+               <div id="part4" class="part" style="display:none;">
+                  <h4>Occupazione attuale</h4>
+                  <div class="row">
+                     <div class="col-md-12 wide-text">
+                        <textarea></textarea>
+                     </div>
+                  </div>
+                  <div class="row">
+                     <div class="col-md-5">
+                        <label for="inputEmail3" class="control-label label-m0">Città di residenza della famiglia:</label>
+                     </div>
+                     <div class="col-md-7">
+                        <input type="text" class="form-control input-xs" id="inputEmail3" placeholder="Città" name="CittFam">
+                     </div>
+                  </div>
+                  <div class="row">
+                     <div class="col-md-5">
+                        <label for="inputEmail3" class="control-label label-m0">Città di residenza della famiglia:</label>
+                     </div>
+                     <div class="col-md-6">
+                        <input type="text" class="form-control input-xs" id="inputEmail3" placeholder="Città" name="bla1">
+                     </div>
+                     <div class="col-md-1">
+                        <input type="text" class="form-control input-xs" id="inputEmail3" placeholder="Prov" name="bla2">
+                     </div>
+                  </div>
+                  <h4>Motivazioni che hanno determinato la scelta di abbandonare gli studi</h4>
+                  <div class="row">
+                     <div class="col-md-12 wide-text">
+                        <textarea></textarea>
+                     </div>
+                  </div>
+               </div>
+               <div id="part-5" class="part">
+                  <h4>bla</h5>
+							<div class="row btns">
+								<div class="col-md-4">
+									<a class="btn btn-default color2 fw1" style="width:100%">Laurea primo livello</a>
+								</div>
+								<div class="col-md-4">
+									<a class="btn btn-default color3 fw2" style="width:100%">Laurea secondo livello</a>
+								</div>
+								<div class="col-md-4">
+									<a class="btn btn-default color4 fw3" style="width:100%">Lavoro</a>
+								</div>
+							</div>
+							<div class="row back" style="display:none;">
+								<div class="col-md-4">
+									<a class="btn btn-default bk" style="width:100%">Indietro</a>
+								</div>
+								<div class="col-md-offset-4 col-md-4">
+									<input class="btn btn-info bk" type="submit" style="width:100%" type="submit" value="Invia">
+								</div>
+							</div>
+						</div>
+					</form>
+				</div>
+			</div>
+		</div>
+		<script src="js/jquery-1.11.3.min.js" type="text/javascript"></script>
+		<script src="js/quest.min.js" type="text/javascript"></script>
+	</body>
+</html>
